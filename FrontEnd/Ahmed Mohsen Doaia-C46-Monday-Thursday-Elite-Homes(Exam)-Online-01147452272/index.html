@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media_query.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EliteHomes - Your Dream Home Awaits</title>
+    <link rel="icon" href="img/download.jpg">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-white fixed-top   ">
+        <div class="container-fluid  space-24">
+            <div class="logo-navbar d-flex align-items-center">
+                <span>EliteHomes</span>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 nav-bar-inner ">
+                    <li class="nav-item">
+                        <a class="nav-link active  " aria-current="page" href="#scrollspyHeading1">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Properties
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active " aria-current="page" href="#scrollspyHeading2">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active " aria-current="page" href="#scrollspyHeading3">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active " aria-current="page" href="#scrollspyHeading4">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  active" aria-current="page" href="#scrollspyHeading5">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <main data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
+        data-bs-smooth-scroll="true">
+
+        <header class="vh-100 " id="scrollspyHeading1">
+            <div class="hero">
+                <div class="container text-center ">
+                    <h1>Find Your Dream Home</h1>
+                    <p>Discover exceptional properties in prime locations. From modern condos to luxury estates, we help
+                        you find the perfect place to call home.</p>
+                    <div class="hero-inner">
+                        <div class="hero-inner-holder1">
+                            <div class=" hero-inner-content">
+                                <label class=" hero-inner-content-label1 ">Location</label>
+                                <div class="position-relative">
+                                    <i class="  fa-solid fa-location-dot"></i>
+                                    <input type="text" placeholder="Enter city, neighborhood, or ZIP code"
+                                        class="text-black">
+                                </div>
+                            </div>
+                            <div class=" ">
+                                <label class="hero-inner-label2  ">Property Type</label>
+                                <select class="form-select Property-type1 " aria-label="Default select example">
+                                    <option selected>All Types</option>
+                                    <option value="1">House</option>
+                                    <option value="2">Apartment</option>
+                                    <option value="3">Condo</option>
+                                    <option value="4">Townhouse</option>
+                                </select>
+                                <div class=" ">
+                                    <label class="hero-inner-label3  ">Price Range</label>
+                                    <select class="form-select Property-type2 " aria-label="Default select example">
+                                        <option selected>Any Price</option>
+                                        <option value="1">$0 - $500K</option>
+                                        <option value="2">$500K - $1M</option>
+                                        <option value="3">$1M - $2M</option>
+                                        <option value="4">$2M+</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="hero-inner-holder2">
+                            <div class=" ">
+                                <label class="hero-inner-label-2  ">Bedrooms</label>
+                                <select class="form-select Property-type-1 " aria-label="Default select example">
+                                    <option selected>Any</option>
+                                    <option value="1">1+</option>
+                                    <option value="2">2+</option>
+                                    <option value="3">3+</option>
+                                    <option value="4">4+</option>
+                                    <option value="5">5+</option>
+                                </select>
+                                <div class="">
+                                    <label class="hero-inner-label-3  ">Bathrooms</label>
+                                    <select class="form-select Property-type-2 " aria-label="Default select example">
+                                        <option selected>Any</option>
+                                        <option value="1">1+</option>
+                                        <option value="2">2+</option>
+                                        <option value="3">3+</option>
+                                        <option value="4">4+</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label class="hero-inner-label-number1">Min Sq Ft</label>
+                                    <input type="number" placeholder="1,000" class="form-select Property-number1">
+                                </div>
+                                <div>
+                                    <label class="hero-inner-label-number2">Min Sq Ft</label>
+                                    <input type="number" placeholder="5,000" class="form-select Property-number2">
+                                </div>
+                            </div>
+                        </div>
+                        <button class="">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            Search Properties
+                        </button>
+                    </div>
+
+
+                    <div class="quick-stats">
+                        <div class="text-center quick-stats-1">
+                            <div class="quick-stats-test">15,000+</div>
+                            <div class="quick-stats-text">Active Listings</div>
+                        </div>
+                        <div class="text-center quick-stats-2 ">
+                            <div class="quick-stats-test">98%</div>
+                            <div class="quick-stats-text">Client Satisfaction</div>
+                        </div>
+                        <div class="text-center quick-stats-3">
+                            <div class="quick-stats-test">500+</div>
+                            <div class="quick-stats-text">Expert Agents</div>
+                        </div>
+                        <div class="text-center quick-stats-4">
+                            <div class="quick-stats-test">25</div>
+                            <div class="quick-stats-text">Years Experience</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+
+        <div class="featured-properties" id="scrollspyHeading2">
+            <div class="container px-6 mx-auto text-center">
+                <div class="featured-properties-logo mt-5">
+                    <div class="featured-properties-styles">Premium Collection</div>
+                    <h2 class="">
+                        <span>Featured Properties</span>
+                    </h2>
+                    <p class="">Discover our handpicked selection of premium properties in the most desirable locations
+                    </p>
+                </div>
+
+                <div class="featured-properties-inner">
+
+                    <div class="modern-luxury-estate text-black">
+                        <div class="modern-luxury-estate-img-inner">
+                            <img src="img/featured-properties-img-1.png" 
+                                alt="modern luxury house with pool, contemporary architecture, beautiful garden">
+                            <div>Featured</div>
+                            <div class="position-absolute"><i class="fa-solid fa-heart text-danger"></i></div>
+                            <div><i class="fa-solid fa-camera"></i>
+                                    24 Photos</div>
+                        </div>
+
+                        <div class="modern-luxury-estate-content-inner">
+                            <div class="d-flex justify-content-between mb-3">
+                                <div class="text-3xl font-bold text-violet-600">$2,850,000</div>
+                                <div class="text-sm text-gray-500">Price per sq ft: $425</div>
+                            </div>
+                            <div class="flex items-center text-gray-600 mb-3 d-flex ">
+                                <span class="font-medium">4 beds</span>
+                                <span class="mx-2">•</span>
+                                <span class="font-medium">3.5 baths</span>
+                                <span class="mx-2">•</span>
+                                <span class="font-medium">6,720 sqft</span>
+                            </div>
+                            <p class="text-gray-800 font-medium mb-2 text-start">Modern Luxury Estate</p>
+                            <p class="text-gray-600 mb-4 text-start">
+                                1234 Beverly Hills Drive, Beverly Hills, CA 90210
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="Modern-Luxury-Estate-img-down d-flex align-items-center ">
+                                    <img src="img/avatar-1.jpg" alt="agent" class="w-25 rounded-5">
+                                    <span class="text-sm text-gray-600">John Mitchell</span>
+                                </div>
+
+                                <div class="">
+                                    <div class="flex space-x-2">
+                                        <button
+                                            class="bg-violet-100 text-violet-600 px-4 py-2 rounded-4 btn text-sm font-medium hover:bg-violet-200 transition-colors cursor-pointer">
+                                            Schedule Tour
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                    <div class="downtown-penthouse text-black">
+                        <div class="downtown-penthouse-img-inner">
+                            <img src="img/featured-properties-img-2.png" class="w-100"
+                                alt="elegant downtown penthouse apartment with city view, modern interior design">
+                            <div>New Listing</div>
+                            <div><i class="fa-solid fa-heart"></i></div>
+                            <div><i class="fa-solid fa-camera"></i>
+                                18 Photos</div>
+                        </div>
+
+                        <div class="downtown-penthouse-content-inner">
+                            <div class="d-flex justify-content-between mb-3 top-100">
+                                <div class="text-3xl font-bold text-violet-600 ">$1,425,000</div>
+                                <div class="text-sm text-gray-500">Price per sq ft: $650</div>
+                            </div>
+                            <div class="flex items-center text-gray-600 mb-3 d-flex text-start">
+                                <span class="font-medium">3 beds</span>
+                                <span class="mx-2">•</span>
+                                <span class="font-medium">2.5 baths</span>
+                                <span class="mx-2">•</span>
+                                <span class="font-medium">2,192 sqft</span>
+                            </div>
+                            <p class="text-gray-800 font-medium mb-2 d-flex text-start">Downtown Penthouse</p>
+                            <p class="text-gray-600 mb-4 d-flex text-start">
+                                789 Metropolitan Ave, New York, NY 10001
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="downtown-penthouse-img-down d-flex align-items-center">
+                                    <img src="img/avatar-5.jpg" alt="agent" class="w-25 rounded-5">
+                                    <span class="text-sm text-gray-600">Emily Rodriguez</span>
+                                </div>
+
+                                <div class="">
+                                    <div class="d-flex space-x-2">
+                                        <button
+                                            class="bg-violet-100 text-violet-600 px-4 py-2 btn rounded-4 text-sm font-medium hover:bg-violet-200 transition-colors cursor-pointer">
+                                            Schedule Tour
+                                        </button>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <div class="family-suburban-home text-black">
+                        <div class="family-suburban-home-img-inner">
+                            <img src="img/featured-properties-img-3.png" class="w-100"
+                                alt="cozy suburban family home with front yard, traditional architecture, welcoming entrance">
+                            <div>Price Drop</div>
+                            <div><i class="fa-solid fa-heart"></i></div>
+                            <div><i class="fa-solid fa-camera"></i>
+                                    32 Photos</div>
+                        </div>
+
+                        <div class="family-suburban-home-content-inner">
+                            <div class="d-flex justify-content-between mb-3">
+                                <div class="text-3xl font-bold text-violet-600">$875,000</div>
+                                <div class="text-sm text-gray-500 text-decoration-line-through">$925,000</div>
+                            </div>
+                            <div class="flex items-center text-gray-600 mb-3 text-start">
+                                <span class="font-medium">5 beds</span>
+                                <span class="mx-2">•</span>
+                                <span class="font-medium">4 baths</span>
+                                <span class="mx-2">•</span>
+                                <span class="font-medium">3,845 sqft</span>
+                            </div>
+                            <p class="text-gray-800 font-medium mb-2 text-start">Family Suburban Home</p>
+                            <p class="text-gray-600 mb-4 text-start">
+                                456 Oak Tree Lane, Austin, TX 78701
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="family-suburban-home-img-down d-flex align-items-center">
+                                    <img src="img/avatar-3.jpg" alt="agent" class="w-25 rounded-5">
+                                    <span class="text-sm text-gray-600">Michael Chen</span>
+                                </div>
+
+                                <div class="">
+                                    <div class="d-flex space-x-2">
+                                        <button
+                                            class="bg-violet-100 text-violet-600 btn px-4 py-2 rounded-4 text-sm font-medium hover:bg-violet-200 transition-colors cursor-pointer ">
+                                            Schedule Tour
+                                        </button>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+
+    <footer></footer>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
